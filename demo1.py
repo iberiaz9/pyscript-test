@@ -1,2 +1,2 @@
 import math
-print(math.sqrt(4))
+print(f"Square root of 4 is {math.sqrt(4)}")
