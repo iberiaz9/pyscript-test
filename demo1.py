@@ -10,7 +10,8 @@ more = 'y'
 
 while students and len(more) and not more[0] in 'nN':
     winner = pick(students)
-    more = input("And the winner is: " + winner + "! More? [y]/n: ")
+    print("And the winner is: " + winner + "!")
+    more = input("More? [y]/n: ")
     if not len(more):
         more = 'y'
 
