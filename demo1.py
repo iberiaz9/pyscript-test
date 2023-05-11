@@ -1,4 +1,4 @@
-import random
+import random, time
 
 students = ['Tomas','Sher','Sal','Jose','Ryan','Lawrence','Mel','Senay','Christie','Vincent','Caitlyn','Adeline','Ray','Mike']
 
@@ -11,6 +11,7 @@ more = 'y'
 while students and len(more) and not more[0] in 'nN':
     winner = pick(students)
     print("And the winner is: " + winner + "!")
+    time.sleep(5)
     more = input("More? [y]/n: ")
     if not len(more):
         more = 'y'
