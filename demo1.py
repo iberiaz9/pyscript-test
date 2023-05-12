@@ -2,8 +2,34 @@ import random
 from pyscript import Element
 
 
-students = ['Tomas','Sher','Sal','Jose','Ryan','Lawrence','Mel','Senay','Christie',
-            'Vincent','Caitlyn','Adeline','Ray','Mike']
+students = [
+"Osayma",
+"Abdulrahman",
+"Barnabas",
+"Muhammed",
+"Fatma",
+"Elijah",
+"Abdulaziz",
+"Georgios",
+"Myung",
+"Rhett",
+"Mahmoud",
+"Sara",
+"Tshepo",
+"Muhammad",
+"Trae",
+"Obinna",
+"Spencer",
+"Gerhard",
+"Judith",
+"Ahmad",
+"Melanie",
+"Saron",
+"Nathan",
+"Ashtin",
+"Bunnita",
+"Thi"
+]
 
 def pick(my_students):
     my_students.remove(student := random.choice(my_students))
