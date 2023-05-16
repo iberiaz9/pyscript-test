@@ -38,7 +38,7 @@ def pick(my_students):
 def my_function():
     more = Element('test-input').value
     if more and more[0].lower() == 'n':
-            students[:] = []
+            students.clear()
     if students:
         winner = pick(students)
         display("And the winner is: " + winner + "!", target="helloDiv")
