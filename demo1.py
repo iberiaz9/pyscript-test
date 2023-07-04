@@ -37,6 +37,7 @@ def pick(my_students):
 
 def my_function():
     more = Element('test-input').value
+    
     if more and more[0].lower() == 'n':
             students.clear()
     if students:
@@ -44,7 +45,6 @@ def my_function():
         display("And the winner is: " + winner + "!", target="helloDiv")
     else:
         display("No more students!", target="helloDiv")
-        
 
-winner = pick(students)
-display("And the winner is: " + winner + "!", target="helloDiv")
+
+my_function()
