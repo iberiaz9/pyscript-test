@@ -2,16 +2,13 @@ import random
 from pyscript import Element
 
 
-students = ['Abdurrahim', 'Adamu', 'Alfonso', 'Alina', 'Asheer',
-'Asri', 'Carl', 'Chidiebere', 'Chrizel', 'Colby', 'Comfort',
-'Dany', 'Derrick', 'Diana', 'Dodou', 'Elizaveta', 'Emmanuel', 'Eric', 'Evan',
-'Farhat', 'Geoffrey', 'Guilherme', 'Hani', 'Hibaq', 'Idris', 'Jazzmin', 'Jennifer',
-'Jhonny', 'John', 'Joshua', 'Karyna', 'Kelvin', 'Kimberly', 'Larissa', 'Leangela',
-'Linda', 'Luis', 'Marshal', 'Meng-Yun', 'Mohamed', 'Moises', 'Moreen',
-'Muhanad', 'Muhydeen', 'Munawara', 'Neo R', 'Neo S', 'Olayemi', 'Oluwaseun', 'Paige',
-'Precious', 'Quadri', 'Rachel', 'Rajib', 'Reem', 'Rita', 'Rukayat', 'Sarmad',
-'Sergio', 'Shabana', 'Shaunyce', 'Shousuke', 'Soumaya', 'Stacy-Ann', 'Stanley',
-'Swe', 'Thant', 'Tochukwu', 'Tran', 'Trevor', 'Uchenna', 'Victor F', 'Victor I',
+students = ['Abdurrahim', 'Adamu', 'Alfonso',
+'Asri', 'Carl', 'Chidiebere', 'Chrizel',
+'Dany', 'Derrick', 'Diana', 'Dodou', 'Elizaveta',
+'Farhat', 'Geoffrey', 'Guilherme', 'Hani', 'Hibaq',
+'Jhonny', 'John', 'Joshua', 'Karyna', 'Kelvin',
+'Linda', 'Luis', 'Marshal', 'Meng-Yun', 'Mohamed',
+'Sergio', 'Shabana', 'Shaunyce', 'Shousuke',
 'Wadzanayi', 'Yasser', 'Yonas', 'Yukina']
 
 def pick(my_students):
